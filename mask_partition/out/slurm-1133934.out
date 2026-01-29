@@ -1,0 +1,693 @@
+cuda-12.1 loaded successful
+gcc-11.3.0 loaded successful
+===== north_atlantic INTEGRATED PIPELINE STARTED =====
+Loading raw data from /home/bingxing2/home/scx7l1f/IAP_TSDO.npy...
+Step 1: Creating precise north_atlantic geographic mask...
+Applying complex Atlantic Ocean splitting rules...
+Geographic mask for 'North Atlantic Ocean' created successfully!
+Filtering 47075260 points by north_atlantic mask...
+north_atlantic Data Count: 8974346
+Split: Tr:6058895, Val:1158061, Te:1757390
+
+>>> Step 2: Training 6 Base Models (OOF + Full)...
+   Generating OOF (5 folds)...
+     Fold 1/5...
+TBB Warning: The number of workers is currently limited to 31. The request for 127 workers is ignored. Further requests for more workers will be silently ignored until the limit changes.
+
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+building tree 1 of 40building tree 2 of 40building tree 3 of 40
+building tree 4 of 40
+building tree 5 of 40
+building tree 6 of 40
+
+building tree 7 of 40
+building tree 8 of 40
+
+building tree 9 of 40
+building tree 10 of 40
+building tree 11 of 40
+building tree 12 of 40
+building tree 13 of 40
+building tree 14 of 40
+building tree 15 of 40
+building tree 16 of 40
+building tree 17 of 40
+building tree 18 of 40
+building tree 19 of 40
+building tree 20 of 40
+building tree 21 of 40
+building tree 22 of 40
+building tree 23 of 40
+building tree 24 of 40
+building tree 25 of 40
+building tree 26 of 40
+building tree 27 of 40
+building tree 28 of 40
+building tree 29 of 40
+building tree 30 of 40
+building tree 31 of 40
+building tree 32 of 40
+building tree 33 of 40[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:   38.5s
+
+building tree 34 of 40
+building tree 35 of 40
+building tree 36 of 40
+building tree 37 of 40
+building tree 38 of 40
+building tree 39 of 40
+building tree 40 of 40
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:   51.5s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:    0.5s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+building tree 1 of 40building tree 2 of 40building tree 3 of 40
+building tree 4 of 40
+building tree 5 of 40
+
+
+building tree 6 of 40
+building tree 7 of 40
+building tree 8 of 40
+building tree 9 of 40
+building tree 10 of 40
+building tree 11 of 40
+building tree 12 of 40
+building tree 13 of 40
+building tree 14 of 40
+building tree 15 of 40
+building tree 16 of 40
+building tree 17 of 40
+building tree 18 of 40
+building tree 19 of 40
+building tree 20 of 40
+building tree 21 of 40
+building tree 22 of 40
+building tree 23 of 40
+building tree 24 of 40
+building tree 25 of 40
+building tree 26 of 40
+building tree 27 of 40
+building tree 28 of 40
+building tree 29 of 40
+building tree 30 of 40
+building tree 31 of 40
+building tree 32 of 40
+building tree 33 of 40[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:   11.2s
+
+building tree 34 of 40
+building tree 35 of 40
+building tree 36 of 40
+building tree 37 of 40
+building tree 38 of 40
+building tree 39 of 40
+building tree 40 of 40
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:   15.9s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:    0.4s finished
+     Fold 2/5...
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+building tree 1 of 40building tree 2 of 40building tree 3 of 40
+building tree 4 of 40
+building tree 5 of 40
+building tree 6 of 40
+
+building tree 7 of 40
+building tree 8 of 40
+
+building tree 9 of 40
+building tree 10 of 40
+building tree 11 of 40
+building tree 12 of 40
+building tree 13 of 40
+building tree 14 of 40
+building tree 15 of 40
+building tree 16 of 40
+building tree 17 of 40
+building tree 18 of 40
+building tree 19 of 40
+building tree 20 of 40
+building tree 21 of 40
+building tree 22 of 40
+building tree 23 of 40
+building tree 24 of 40
+building tree 25 of 40
+building tree 26 of 40
+building tree 27 of 40
+building tree 28 of 40
+building tree 29 of 40
+building tree 30 of 40
+building tree 31 of 40
+building tree 32 of 40
+building tree 33 of 40[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:   38.3s
+
+building tree 34 of 40
+building tree 35 of 40
+building tree 36 of 40
+building tree 37 of 40
+building tree 38 of 40
+building tree 39 of 40
+building tree 40 of 40
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:   51.8s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:    0.5s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+building tree 1 of 40building tree 2 of 40building tree 3 of 40
+building tree 4 of 40
+building tree 5 of 40
+building tree 6 of 40
+
+building tree 7 of 40
+building tree 8 of 40
+
+building tree 9 of 40
+building tree 10 of 40
+building tree 11 of 40
+building tree 12 of 40
+building tree 13 of 40
+building tree 14 of 40
+building tree 15 of 40
+building tree 16 of 40
+building tree 17 of 40
+building tree 18 of 40
+building tree 19 of 40
+building tree 20 of 40
+building tree 21 of 40
+building tree 22 of 40
+building tree 23 of 40
+building tree 24 of 40
+building tree 25 of 40
+building tree 26 of 40
+building tree 27 of 40
+building tree 28 of 40
+building tree 29 of 40
+building tree 30 of 40
+building tree 31 of 40
+building tree 32 of 40
+building tree 33 of 40[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:   11.2s
+
+building tree 34 of 40
+building tree 35 of 40
+building tree 36 of 40
+building tree 37 of 40
+building tree 38 of 40
+building tree 39 of 40
+building tree 40 of 40
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:   15.4s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:    0.4s finished
+     Fold 3/5...
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+building tree 1 of 40building tree 2 of 40building tree 3 of 40
+building tree 4 of 40
+building tree 5 of 40
+building tree 6 of 40
+
+building tree 7 of 40
+building tree 8 of 40
+
+building tree 9 of 40
+building tree 10 of 40
+building tree 11 of 40
+building tree 12 of 40
+building tree 13 of 40
+building tree 14 of 40
+building tree 15 of 40
+building tree 16 of 40
+building tree 17 of 40
+building tree 18 of 40
+building tree 19 of 40
+building tree 20 of 40
+building tree 21 of 40
+building tree 22 of 40
+building tree 23 of 40
+building tree 24 of 40
+building tree 25 of 40
+building tree 26 of 40
+building tree 27 of 40
+building tree 28 of 40
+building tree 29 of 40
+building tree 30 of 40
+building tree 31 of 40
+building tree 32 of 40
+building tree 33 of 40[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:   37.8s
+
+building tree 34 of 40
+building tree 35 of 40
+building tree 36 of 40
+building tree 37 of 40
+building tree 38 of 40
+building tree 39 of 40
+building tree 40 of 40
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:   51.3s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:    0.5s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+building tree 1 of 40building tree 2 of 40building tree 3 of 40
+building tree 4 of 40
+building tree 5 of 40
+building tree 6 of 40
+
+
+building tree 7 of 40building tree 8 of 40
+
+building tree 9 of 40
+building tree 10 of 40
+building tree 11 of 40
+building tree 12 of 40
+building tree 13 of 40
+building tree 14 of 40
+building tree 15 of 40
+building tree 16 of 40
+building tree 17 of 40
+building tree 18 of 40
+building tree 19 of 40
+building tree 20 of 40
+building tree 21 of 40
+building tree 22 of 40
+building tree 23 of 40
+building tree 24 of 40
+building tree 25 of 40
+building tree 26 of 40
+building tree 27 of 40
+building tree 28 of 40
+building tree 29 of 40
+building tree 30 of 40
+building tree 31 of 40
+building tree 32 of 40
+building tree 33 of 40[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:   11.0s
+
+building tree 34 of 40
+building tree 35 of 40
+building tree 36 of 40
+building tree 37 of 40
+building tree 38 of 40
+building tree 39 of 40
+building tree 40 of 40
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:   15.1s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:    0.4s finished
+     Fold 4/5...
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+building tree 1 of 40building tree 2 of 40building tree 3 of 40
+building tree 4 of 40
+building tree 5 of 40
+building tree 6 of 40
+
+building tree 7 of 40
+building tree 8 of 40
+
+building tree 9 of 40
+building tree 10 of 40
+building tree 11 of 40
+building tree 12 of 40
+building tree 13 of 40
+building tree 14 of 40
+building tree 15 of 40
+building tree 16 of 40
+building tree 17 of 40
+building tree 18 of 40
+building tree 19 of 40
+building tree 20 of 40
+building tree 21 of 40
+building tree 22 of 40
+building tree 23 of 40
+building tree 24 of 40
+building tree 25 of 40
+building tree 26 of 40
+building tree 27 of 40
+building tree 28 of 40
+building tree 29 of 40
+building tree 30 of 40
+building tree 31 of 40
+building tree 32 of 40
+building tree 33 of 40[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:   37.4s
+
+building tree 34 of 40
+building tree 35 of 40
+building tree 36 of 40
+building tree 37 of 40
+building tree 38 of 40
+building tree 39 of 40
+building tree 40 of 40
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:   51.1s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:    0.5s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+building tree 1 of 40building tree 2 of 40building tree 3 of 40
+building tree 4 of 40
+building tree 5 of 40
+building tree 6 of 40
+
+building tree 7 of 40
+
+building tree 8 of 40
+building tree 9 of 40
+building tree 10 of 40
+building tree 11 of 40
+building tree 12 of 40
+building tree 13 of 40
+building tree 14 of 40
+building tree 15 of 40
+building tree 16 of 40
+building tree 17 of 40
+building tree 18 of 40
+building tree 19 of 40
+building tree 20 of 40
+building tree 21 of 40
+building tree 22 of 40building tree 23 of 40
+
+building tree 24 of 40
+building tree 25 of 40
+building tree 26 of 40
+building tree 27 of 40
+building tree 28 of 40
+building tree 29 of 40
+building tree 30 of 40
+building tree 31 of 40
+building tree 32 of 40
+building tree 33 of 40[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:    9.9s
+
+building tree 34 of 40
+building tree 35 of 40
+building tree 36 of 40
+building tree 37 of 40
+building tree 38 of 40
+building tree 39 of 40
+building tree 40 of 40
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:   15.1s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:    0.4s finished
+     Fold 5/5...
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+building tree 1 of 40building tree 2 of 40
+
+building tree 3 of 40building tree 4 of 40
+building tree 5 of 40building tree 6 of 40
+building tree 7 of 40
+
+building tree 8 of 40
+
+building tree 9 of 40
+building tree 10 of 40
+building tree 11 of 40
+building tree 12 of 40
+building tree 13 of 40
+building tree 14 of 40
+building tree 15 of 40
+building tree 16 of 40
+building tree 17 of 40
+building tree 18 of 40
+building tree 19 of 40
+building tree 20 of 40
+building tree 21 of 40
+building tree 22 of 40
+building tree 23 of 40
+building tree 24 of 40
+building tree 25 of 40
+building tree 26 of 40
+building tree 27 of 40
+building tree 28 of 40building tree 29 of 40
+
+building tree 30 of 40
+building tree 31 of 40
+building tree 32 of 40
+building tree 33 of 40[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:   38.8s
+
+building tree 34 of 40
+building tree 35 of 40
+building tree 36 of 40
+building tree 37 of 40
+building tree 38 of 40
+building tree 39 of 40
+building tree 40 of 40
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:   54.1s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:    0.5s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+building tree 1 of 40building tree 2 of 40building tree 3 of 40
+building tree 4 of 40
+building tree 5 of 40
+building tree 6 of 40
+
+
+building tree 7 of 40building tree 8 of 40
+
+building tree 9 of 40
+building tree 10 of 40
+building tree 11 of 40
+building tree 12 of 40
+building tree 13 of 40
+building tree 14 of 40
+building tree 15 of 40
+building tree 16 of 40
+building tree 17 of 40
+building tree 18 of 40
+building tree 19 of 40
+building tree 20 of 40
+building tree 21 of 40
+building tree 22 of 40
+building tree 23 of 40
+building tree 24 of 40
+building tree 25 of 40
+building tree 26 of 40
+building tree 27 of 40
+building tree 28 of 40
+building tree 29 of 40
+building tree 30 of 40
+building tree 31 of 40
+building tree 32 of 40
+building tree 33 of 40[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:   11.3s
+
+building tree 34 of 40
+building tree 35 of 40
+building tree 36 of 40building tree 37 of 40
+
+building tree 38 of 40
+building tree 39 of 40
+building tree 40 of 40
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:   16.4s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:    0.4s finished
+   Training Full Models for Inference...
+     Fitting lgb...
+     Fitting rf...
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+building tree 1 of 40building tree 2 of 40building tree 3 of 40
+building tree 4 of 40
+building tree 5 of 40
+building tree 6 of 40
+
+building tree 7 of 40
+building tree 8 of 40
+
+building tree 9 of 40
+building tree 10 of 40
+building tree 11 of 40
+building tree 12 of 40
+building tree 13 of 40
+building tree 14 of 40
+building tree 15 of 40
+building tree 16 of 40
+building tree 17 of 40
+building tree 18 of 40
+building tree 19 of 40
+building tree 20 of 40
+building tree 21 of 40
+building tree 22 of 40
+building tree 23 of 40
+building tree 24 of 40
+building tree 25 of 40
+building tree 26 of 40
+building tree 27 of 40
+building tree 28 of 40
+building tree 29 of 40
+building tree 30 of 40
+building tree 31 of 40
+building tree 32 of 40
+building tree 33 of 40[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:   49.1s
+
+building tree 34 of 40
+building tree 35 of 40
+building tree 36 of 40
+building tree 37 of 40
+building tree 38 of 40
+building tree 39 of 40
+building tree 40 of 40
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:  1.1min finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:    0.4s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:    0.5s
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:    0.6s finished
+     Fitting cb...
+     Fitting xgb...
+     Fitting ert...
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+building tree 1 of 40building tree 2 of 40building tree 3 of 40
+
+building tree 4 of 40
+building tree 5 of 40
+building tree 6 of 40
+
+building tree 7 of 40
+building tree 8 of 40
+building tree 9 of 40
+building tree 10 of 40
+building tree 11 of 40
+building tree 12 of 40
+building tree 13 of 40
+building tree 14 of 40
+building tree 15 of 40
+building tree 16 of 40
+building tree 17 of 40
+building tree 18 of 40
+building tree 19 of 40
+building tree 20 of 40
+building tree 21 of 40
+building tree 22 of 40
+building tree 23 of 40
+building tree 24 of 40
+building tree 25 of 40
+building tree 26 of 40
+building tree 27 of 40
+building tree 28 of 40
+building tree 29 of 40
+building tree 30 of 40
+building tree 31 of 40
+building tree 32 of 40
+building tree 33 of 40[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:   14.2s
+
+building tree 34 of 40
+building tree 35 of 40
+building tree 36 of 40
+building tree 37 of 40
+building tree 38 of 40
+building tree 39 of 40
+building tree 40 of 40
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:   21.2s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:    0.4s finished
+[Parallel(n_jobs=8)]: Using backend ThreadingBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done  25 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed:    0.6s finished
+     Fitting knn...
+   Saving OOF and Base Preds to /home/bingxing2/home/scx7l1f/rec/mask_partition/north_atlantic/results/ ...
+
+>>> Step 3: Training Spatial Stacker...
+   Stacker Epoch 0: Val Loss 75.1366
+   Stacker Epoch 20: Val Loss 89.8683
+   Stacker Epoch 40: Val Loss 91.1201
+   Stacker Epoch 60: Val Loss 90.9423
+   Stacker Epoch 80: Val Loss 90.8588
+Stacker (Test) | RMSE: 9.4060 | R2: 0.9706 | MAE: 6.7522 | MB: 2.0809
+预测值范围: 43.03 ~ 379.80
+
+>>> Step 4: Training PINN...
+   PINN Epoch 0: Val MSE 49268.9761 (Phys W: 0.5)
+   PINN Epoch 1: Val MSE 21448.0525 (Phys W: 0.5)
+   PINN Epoch 2: Val MSE 2085.9787 (Phys W: 0.5)
+   PINN Epoch 3: Val MSE 114.2408 (Phys W: 0.5)
+   PINN Epoch 4: Val MSE 100.2620 (Phys W: 0.5)
+   PINN Epoch 5: Val MSE 91.8625 (Phys W: 0.6)
+   PINN Epoch 6: Val MSE 105.6198 (Phys W: 0.6)
+   PINN Epoch 7: Val MSE 105.4016 (Phys W: 0.6)
+   PINN Epoch 8: Val MSE 93.8180 (Phys W: 0.6)
+   PINN Epoch 9: Val MSE 95.6777 (Phys W: 0.6)
+   PINN Epoch 10: Val MSE 90.5681 (Phys W: 0.7)
+   PINN Epoch 11: Val MSE 96.0859 (Phys W: 0.7)
+   PINN Epoch 12: Val MSE 97.9403 (Phys W: 0.7)
+   PINN Epoch 13: Val MSE 99.7828 (Phys W: 0.7)
+   PINN Epoch 14: Val MSE 93.0841 (Phys W: 0.7)
+   PINN Epoch 15: Val MSE 90.8034 (Phys W: 0.8)
+   PINN Epoch 16: Val MSE 96.2485 (Phys W: 0.8)
+   PINN Epoch 17: Val MSE 91.9209 (Phys W: 0.8)
+   PINN Epoch 18: Val MSE 95.8039 (Phys W: 0.8)
+   PINN Epoch 19: Val MSE 89.8095 (Phys W: 0.8)
+   PINN Epoch 20: Val MSE 93.0686 (Phys W: 0.9)
+   PINN Epoch 21: Val MSE 89.6180 (Phys W: 0.9)
+   PINN Epoch 22: Val MSE 90.6285 (Phys W: 0.9)
+   PINN Epoch 23: Val MSE 91.3155 (Phys W: 0.9)
+   PINN Epoch 24: Val MSE 89.3242 (Phys W: 0.9)
+   PINN Epoch 25: Val MSE 92.5254 (Phys W: 1.0)
+   PINN Epoch 26: Val MSE 89.3926 (Phys W: 1.0)
+   PINN Epoch 27: Val MSE 91.3871 (Phys W: 1.0)
+   PINN Epoch 28: Val MSE 95.3832 (Phys W: 1.0)
+   PINN Epoch 29: Val MSE 89.8990 (Phys W: 1.0)
+   PINN Epoch 30: Val MSE 89.3210 (Phys W: 1.0)
+   PINN Epoch 31: Val MSE 91.3272 (Phys W: 1.0)
+   PINN Epoch 32: Val MSE 91.2985 (Phys W: 1.0)
+   PINN Epoch 33: Val MSE 89.8791 (Phys W: 1.0)
+   PINN Epoch 34: Val MSE 90.6281 (Phys W: 1.0)
+   PINN Epoch 35: Val MSE 90.6535 (Phys W: 1.0)
+   PINN Epoch 36: Val MSE 90.3851 (Phys W: 1.0)
+   PINN Epoch 37: Val MSE 89.9972 (Phys W: 1.0)
+   PINN Epoch 38: Val MSE 90.4817 (Phys W: 1.0)
+   PINN Epoch 39: Val MSE 90.2583 (Phys W: 1.0)
+   PINN Epoch 40: Val MSE 89.8371 (Phys W: 1.0)
+   PINN Epoch 41: Val MSE 89.9842 (Phys W: 1.0)
+   PINN Epoch 42: Val MSE 90.5224 (Phys W: 1.0)
+   PINN Epoch 43: Val MSE 89.9789 (Phys W: 1.0)
+   PINN Epoch 44: Val MSE 90.0959 (Phys W: 1.0)
+   PINN Epoch 45: Val MSE 90.1510 (Phys W: 1.0)
+   PINN Epoch 46: Val MSE 90.2571 (Phys W: 1.0)
+   PINN Epoch 47: Val MSE 90.0527 (Phys W: 1.0)
+   PINN Epoch 48: Val MSE 90.1360 (Phys W: 1.0)
+   PINN Epoch 49: Val MSE 90.0763 (Phys W: 1.0)
+
+===== FINAL RESULTS =====
+Stacker Only | RMSE: 9.4060 | R2: 0.9706 | MAE: 6.7522 | MB: 2.0809
+预测值范围: 43.03 ~ 379.80
+PINN (Final) | RMSE: 9.2739 | R2: 0.9714 | MAE: 6.7226 | MB: 2.0530
+预测值范围: 49.35 ~ 359.12
+Total Time: 195.6 mins
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 448.87it/s]
+
+
+
+============ Job 1133934 Performance Details ============
+JobID: 1133934
+User: scx7l1f
+Nodes、GPU: paraai-n32-h-01-agent-27: 0
+Time Range: 2026-01-29 01:39:01 - 2026-01-29 04:54:50
+Running time: 0d3H15M49S
+GPU Util: 1.14 %
+GMem Util: 5.46 %
+GMemBW Util: 0.26 %
+Tensor Core Util: 0.01 %
+Tensor IMMA Util: N/A
+Tensor HMMA Util: N/A
+Tensor DFMA Util: N/A
+FP64 Util: 0 %
+FP32 Util: 0.04 %
+FP16 Util: 0 %
+GPCIE RX: 1.99 MB/s
+GPCIE TX: 737.84 KB/s
+GNVLINK: N/A
+GPU Power: 39.96 W
+GPU Temperature: 30.60 °C
+
+Additional Performance Data:
+--- flops performance(avg to single card) ---
+|- fp64: 0 TFlops
+|- fp32: 0 TFlops
+|- fp16: 0 TFlops
+|- tensor: 0 TFlops
+> |- GMEMBW/F: 406,937 B/MF
+> |- NVLINK/F: No Data
+> |- IB_TX/F: No Data
+> |- IB_RX/F: No Data
+> |- PCIE_TX/F: 71 B/MF
+> |- PCIE_RX/F: 195 B/MF
+=========================================================
